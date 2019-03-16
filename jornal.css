@@ -1,8 +1,8 @@
 header {
     background-color:#FAFAFA;    
     text-align: center;
-    height: 100px;
-    padding: 40px 0;
+    height: 50px;
+    padding: 20px 0;
     color: rgb(14, 14, 170);
 }
 
@@ -15,11 +15,9 @@ header {
 }
 
 .artcenter {
-    float:left;
     width:31%;
     padding:15px;
     margin-top:7px;
-    text-align:center;
 }
 
 .artright {
