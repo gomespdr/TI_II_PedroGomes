@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Formulario</title>
+</head>
+<body>
+    <h1>Formulário de informações</h1>
+<form action="save.php" target="_blank" method="GET">
+    <fieldset style="width:150px">
+        <legend>Questionário</legend>
+        <strong>Nome: </strong><input type="text" name="nome" size="50px"><br>
+        <br>
+        <strong>Idade: </strong><br>
+        <input type="radio" name="idade" value="menorDe18" > Menor de 18 ><br>
+        <input type="radio" name="idade" value="entre18e35"> 18 - 35 <br>
+        <input type="radio" name="idade" value="entre36e48"> 36 - 48 <br>
+        <input type="radio" name="idade" value="maiorQue49"> Maior de 48 <br><br>
+        <strong>Profissão: </strong><input type="text" name="profissao" size="50px"><br><br>
+        <strong>Pais: </strong> <br>
+        <select name="pais">
+        <option value="Portugal">Portugal</option>
+        <option value="uniaoEuropeia">União Europeia</option>
+        <option value="europa">Europa</option>
+        <option value="outro">Outro</option>
+        </select>
+        <br><br>
+        <strong>Interesses:</strong><br>
+        <input type="checkbox" name="interesses1" value="desporto">Desporto<br>
+        <input type="checkbox" name="interesses2" value="musica">Música<br>
+        <input type="checkbox" name="interesses3" value="fotografia">Fotografia<br>
+        <input type="checkbox" name="interesses4" value="programacao">Programação<br>
+        <br>
+        <strong>Comentários: </strong><br><textarea name="comentarios" rows="4" cols="100"></textarea><br>
+        <br>
+        <input type="submit" value="Submeter">
+    </fieldset>
+</form>
+</body>
